@@ -9,4 +9,4 @@
 Console.WriteLine("Введите число");
 int i = Convert.ToInt32(Console.ReadLine());
 int a = i * i; 
-Console.WriteLine($"{i} -> {a}");ы
+Console.WriteLine($"{i} -> {a}");
