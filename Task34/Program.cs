@@ -29,12 +29,12 @@ int PositivRes(int[] arr)
     int chet = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        if(arr[i] % 2 == 0) chet =+ 1;
+        if(arr[i] % 2 == 0) chet++;
     }
     return chet;
 }
 
-int[] array = IntArrey(9, 100, 1000);
+int[] array = IntArrey(5, 100, 1000);
 int result = PositivRes(array);
 PrintArray(array);
 Console.Write($" -> {result}");
