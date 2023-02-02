@@ -49,7 +49,7 @@ double[] SumElement(int[,] matrix)
     }
     for (int i = 0; i < sum.Length; i++)
     {
-        sum[i] = Math.Round(sum[i] / 2, 2);
+        sum[i] = Math.Round(sum[i] / matrix.GetLength(1), 2);
     }
 
     return sum;
